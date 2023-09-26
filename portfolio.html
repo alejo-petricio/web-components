@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script defer src="./components/header.js"></script>
+    <script defer src="./portfolio.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <link rel="stylesheet" href="components/header.css">
+    <link rel="stylesheet" href="components/footer.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./servicios.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"></header>
+    <section class="welcome">
+        <div class="welcome__container"></div>
+    </section>
+    <template id="template-welcome">
+            <div class="welcome__title-cont">
+                <h2 class="welcome__title-top"></h2>
+                <h2 class="welcome__title-bottom"></h2>
+            </div>
+            <div class="welcome__img-cont">
+                <img src="" alt="" class="welcome__img">
+                <img src="" alt="" class="welcome__img-sombra">
+            </div>
+        </template>
+
+        <section class="services">
+            <div class="services__container">
+            <div class="services__card-cont"></div>
+            <div class="services__link-cont">
+            <img src="imagenes/arrow-down-svgrepo-com 1.svg" alt="" class="services__link-img">
+            <a class="services__link" href="https://github.com/alejo-petricio">Ver mas</a>
+        </div>
+    </div>
+</section>
+<template id="template-services">
+    <div class="services__card">
+    <div class="services__card-box">
+        <img src="" alt="" class="services__card-img">
+        <h3 class="services__card-title"></h3>
+        <p class="services__card-text"></p>
+        </div>
+        </div>
+       </template>
+       <footer class="footer"></footer>
+</body>
+</html>

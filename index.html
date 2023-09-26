@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./components/header.js"></script>
+    <script defer src="components/footer.js"></script>
+    <script defer src="components/form.js"></script>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="components/header.css">
+    <link rel="stylesheet" href="components/footer.css">
+    <link rel="stylesheet" href="servicios.css">
+    <link rel="stylesheet" href="components/form.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"></header>
+    <section class="welcome">
+        <div class="welcome__container"></div>
+    </section>
+
+    <template id="template-welcome">
+            <div class="welcome__title-cont">
+                <h2 class="welcome__title-top"></h2>
+                <h2 class="welcome__title-bottom"></h2>
+            </div>
+            <div class="welcome__img-cont">
+                <img src="" alt="" class="welcome__img">
+                <img src="" alt="" class="welcome__img-sombra">
+            </div>
+</template>
+
+    <section class="presentacion">
+        <div class="presentacion__container"></div>
+    </section>
+    <template id="template-presentacion">
+        <div class="presentacion__text-cont">
+            <h2 class="presentacion__title"></h2>
+            <div class="presentacion__p-cont">
+                <p class="presentacion__text"></p>
+            </div>
+            </div>
+        <div class="presentacion__img-cont">
+            <img  alt="" class="presentacion__img">
+        </div>
+    </template>
+
+    <section class="services">
+        <div class="services__container">
+            <div class="services__title-cont">
+                <h2 class="services__title-blanco">Mis</h2>
+                <h2 class="services__title-celeste">servicios</h2>
+            </div>
+            <div class="services__card-cont">
+                <div class="services__card">
+                    <div class="services__card-box">
+                        <img src="https://www.comunicare.es/wp-content/uploads/2021/03/diseno-web-1.jpg" alt="" class="services__card-img">
+                        <h3 class="services__card-title">Desarrollo de paginas web</h3>
+                        <p class="services__card-text">Creacion de paginas webs, totalmente responsive y mobile first. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-box">
+                        <img src="imagenes/Group 33.svg" alt="" class="services__card-img">
+                        <h3 class="services__card-title">Animaciones para webs</h3>
+                        <p class="services__card-text">Animaciones personalizadas con CSS , JS y Frameworks. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis posuere tristique.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-box">
+                        <img src="imagenes/Group 1.svg" alt="" class="services__card-img">
+                        <h3 class="services__card-title">Desarrollo de apps</h3>
+                        <p class="services__card-text">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contacto"></div>
+    <footer class="footer"></footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.services{
+    height: 1777px;
+}
+@media(min-width: 769px){
+    .services{
+        height: 762px;
+    }
+}
+.services__card-cont{
+    margin-top: 100px;
+}
+.services__link-cont{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+@media(min-width: 769px){
+    .services__link-cont{
+        margin-top: 50px;
+    }
+}
+.services__link{
+    text-decoration: none;
+    color: white;
+}
